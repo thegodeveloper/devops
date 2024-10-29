@@ -8,10 +8,16 @@
 doctl kubernetes options sizes
 ```
 
+### List Kubernetes Versions
+
+```shell
+doctl kubernetes options versions
+```
+
 ### Create K8s Cluster
 
 ```shell
-doctl kubernetes cluster create devops --node-pool "name=devops-pool;size=s-1vcpu-2gb;count=2"
+doctl kubernetes cluster create devops --version 1.30.5-do.3 --node-pool "name=devops-pool;size=s-2vcpu-4gb;count=2"
 ```
 
 ## Delete the Kubernetes Cluster
