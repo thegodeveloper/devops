@@ -2,4 +2,4 @@
 
 ## Content
 
-- [Digital Ocean](cloud/digitalocean.md)
+- [Digital Ocean](digitalocean/kubernetes.md)
