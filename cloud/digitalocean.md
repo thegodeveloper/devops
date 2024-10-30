@@ -20,6 +20,12 @@ doctl kubernetes options versions
 doctl kubernetes cluster create devops --version 1.30.5-do.3 --node-pool "name=devops-pool;size=s-2vcpu-4gb;count=2"
 ```
 
+### Create Small Cluster
+
+```shell
+doctl kubernetes cluster create devops --version 1.31.1-do.3 --node-pool "name=devops-pool;size=s-2vcpu-2gb;count=2"
+```
+
 ## Delete the Kubernetes Cluster
 
 ```shell
