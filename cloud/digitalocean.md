@@ -38,3 +38,10 @@ doctl kubernetes cluster delete devops
 doctl kubernetes cluster list
 ID    Name    Region    Version    Auto Upgrade    Status    Node Pools
 ```
+
+## Save Kubernetes Cluster Kubeconfig
+
+```shell
+doctl kubernetes cluster kubeconfig save devops
+```
+
