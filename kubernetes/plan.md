@@ -6,6 +6,10 @@
 - Certified Kubernetes Application Developer (CKAD) ⭐
 - Certified Kubernetes Security Specialist (CKS)
 
+## Books
+
+- Kubernetes for Developers
+
 ## Notes
 
 - Read Kubernetes Documentation
