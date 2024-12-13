@@ -11,6 +11,7 @@
 - Azure Kubernetes Service with Azure DevOps and Terraform
 - Datadog Monitoring - A Full Basic to Advanced Datadog Guide
 - Istio Hands-On for Kubernetes
+- Helm
 
 ## Content
 
