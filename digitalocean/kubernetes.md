@@ -28,6 +28,8 @@ doctl kubernetes cluster create devops --version 1.32.2-do.0 --node-pool "name=d
 
 ## Delete the Kubernetes Cluster
 
+When the cluster is deleted, all resources associated with the cluster are also deleted.
+
 ```shell
 doctl kubernetes cluster delete devops
 ```
